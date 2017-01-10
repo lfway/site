@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<title>404 – Page Not Found</title>
+<!-- head:meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<!-- head:media -->
+<link rel="shortcut icon" type="image/x-icon" href="http://garden.ifmo.ru/errors/xdata/_graphics/favicon.ico" />
+<!-- head:styles -->
+<link rel="stylesheet" href="http://garden.ifmo.ru/errors/xdata/_css/basis.css" />
+<link rel="stylesheet" href="http://garden.ifmo.ru/errors/xdata/_css/media.css" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300&subset=latin,cyrillic" />
+<!-- head:scripts -->
+<!--[if lt IE 9]><script src="http://garden.ifmo.ru/errors/xdata/_js/html5.js"></script><![endif]-->
+</head><body>
+<!-- body:shadowload -->
+<div class="shadowload">
+	<div class="resource-1"></div>
+	<div class="resource-2"></div>
+</div>
+<!-- body:viewport -->
+<section class="viewport">
+	<div class="heading">
+		<div class="wrapper">
+			<a href="/" class="logo en"></a>
+		</div>
+	</div>
+	<div class="document">
+		<div class="wrapper">
+			<div class="cell illistration">
+				<div class="wrap">
+					<div class="grill">
+						<img src="http://garden.ifmo.ru/errors/xdata/_graphics/grill_dummy.png" alt="" />
+					</div>
+					<div id="led" class="led enabled">
+						<img src="http://garden.ifmo.ru/errors/xdata/_graphics/led_dummy.png" alt="" />
+					</div>
+				</div>
+			</div>
+			<div class="cell error">
+				<h2>Oops, 404!</h2>
+				<p>Вы почти у цели! Попробуйте <a style="text-decoration:underline;color:white; " href="http://metalab.ifmo.ru">еще раз!</a>.</p>
+				<p>The page you are looking for doesn't exist.</p>
+				<!--<form name="search" method="post" action="/en/searchform/search.htm">
+					<div class="search">
+						<button type="submit">
+							<i class="icon"></i>
+						</button>
+						<div class="field">
+							<input type="text" name="searchTextBox" placeholder="What can we help you find?" value="" required="required" />
+						</div>
+					</div>
+				</form>-->
+			</div>
+		</div>
+	</div>
+</section>
+<!-- body:scripts -->
+<script src="http://garden.ifmo.ru/errors/xdata/_js/jquery.min.js"></script>
+<script src="http://garden.ifmo.ru/errors/xdata/_js/utilities.min.js"></script>
+</body></html>
